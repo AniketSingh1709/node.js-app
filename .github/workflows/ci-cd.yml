@@ -15,7 +15,12 @@ jobs:
               with:
                   node-version: '20.x'
 
-            - name: npm install, build
+            - name: npm install
               run: |
+                  cd my-node-app
                   npm install
+
+            - name: Build
+              run: |
+                  cd my-node-app
                   npm run build
