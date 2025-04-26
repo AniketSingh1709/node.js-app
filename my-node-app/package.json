@@ -5,8 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "npm build"
-  },
+    "build": "echo 'No build step required'" 
   "dependencies": {
     "express": "^4.18.4"
   },
